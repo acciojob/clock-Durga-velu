@@ -4,8 +4,8 @@ let displayTime=document.getElementById("timer")
 
 let currentDate=new Date()
 
-setInterVal(
-	function () {
+setInterval(
+	function(){
 		
 	currentDate=new Date();
 		displayTime.innerHTML=currentDate.toLocaleString();
